@@ -1,0 +1,8 @@
+{
+  id: beer.id,
+  name: beer.name,
+  category: beer.category,
+  image_url: beer.image_url,
+  description: beer.description,
+  abv: beer.abv
+}
