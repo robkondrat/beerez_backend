@@ -1,8 +1,20 @@
 {
   id: beer.id,
   name: beer.name,
+  price: beer.price,
+  tax: beer.tax,
+  is_discounted: beer.is_discounted?,
+  categories: beer.categories.map {|category| category.name },
+  total: beer.total,
   category: beer.category,
   image_url: beer.image_url,
   description: beer.description,
-  abv: beer.abv
+  abv: beer.abv,
+  in_stock: beer.in_stock,
+  brewery: (render partial: "api/breweries/brewery.json.jb", locals: { brewery: beer.brewery }),
+  formatted: {
+    price: number_to_currency(beer.price),
+    tax: number_to_currency(beer.tax),
+    total: number_to_currency(beer.total)
+  }
 }

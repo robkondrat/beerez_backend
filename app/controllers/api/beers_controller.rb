@@ -38,6 +38,7 @@ class Api::BeersController < ApplicationController
     @beer = Beer.new(
       name: params[:name],
       price: params[:price],
+      brewery_id: params[:brewery_id],
       category: params[:category],
       image_url: params[:image_url],
       description: params[:description],
@@ -61,6 +62,7 @@ class Api::BeersController < ApplicationController
 
     @beer.name = params[:name] || @beer.name
     @beer.price = params[:price] || @beer.price
+    @beer.in_stock = params[:in_stock] || @beer.in_stock
     @beer.brewery_id = params[:brewery_id] || @beer.brewery_id
     @beer.category = params[:category] || @beer.category
     @beer.image_url = params[:image_url] || @beer.image_url
