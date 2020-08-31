@@ -11,5 +11,10 @@ Rails.application.routes.draw do
     get '/beers/:id' => 'beers#show'
     patch '/beers/:id' => 'beers#update'
     delete '/beers/:id' => 'beers#destroy'
+
+    post '/users' => 'users#create'
+    get '/users/:id' => 'users#show'
+
+    post '/sessions' => 'sessions#create'
   end
 end
