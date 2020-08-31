@@ -1,0 +1,9 @@
+{
+  id: carted_beer.id,
+  status: carted_beer.status,
+  user_id: carted_product.user_id,
+  beer_id: carted_beer.beer_id,
+  quantity: carted_beer.quantity,
+  order_id: carted_beer.order_id,
+  beer: ( render partial: "api/beers/beer.json.jb", locals: {beer: carted_beer.beer})
+}
