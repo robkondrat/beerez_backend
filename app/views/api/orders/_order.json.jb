@@ -1,0 +1,8 @@
+{
+  id: order.id,
+  user_id: order.user_id,
+  subtotal: order.subtotal,
+  tax: order.tax,
+  total: order.total,
+  carted_beers: order.carted_beers.map { |carted_beer| render partial: "api/carted_beers/carted_beer.json.jb", locals: { carted_beer: carted_beer } }
+}

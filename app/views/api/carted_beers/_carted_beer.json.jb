@@ -1,7 +1,7 @@
 {
   id: carted_beer.id,
   status: carted_beer.status,
-  user_id: carted_product.user_id,
+  user_id: carted_beer.user_id,
   beer_id: carted_beer.beer_id,
   quantity: carted_beer.quantity,
   order_id: carted_beer.order_id,
