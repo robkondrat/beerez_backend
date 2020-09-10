@@ -1,5 +1,5 @@
 class Api::BeersController < ApplicationController
-  before_action: :authenticate_admin, only: [:create, :update, :destroy]
+  before_action :authenticate_admin, only: [:create, :update, :destroy]
 
   def index
     @beers = Beer.all

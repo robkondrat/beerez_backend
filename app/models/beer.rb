@@ -6,7 +6,7 @@ class Beer < ApplicationRecord
   has_many :beer_categories
   has_many :categories, through: :beer_categories
 
-  validates :name, presence: true, uniqueness: true
+  validates :name, presence: true
   validates :price, numericality: {greater_than: 0, less_than: 10000.00}
 
   def is_discounted?
