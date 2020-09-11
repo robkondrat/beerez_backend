@@ -85,3 +85,93 @@
 #     brewery_id: 5
 #   }
 # ])
+
+# Beer.create!([
+#   {
+#     name: "Next Coast IPA",
+#     price: 16.99,
+#     category: "Indian Pale Ale",
+#     image_url: "https://www.gooseisland.com/assets/images/beers/nextcoast/next-coast-can1.png",
+#     description: "It’s 7%, but totally crushable — it’s not quite like any other IPA you’ve had. Big, bracing, piney hop flavors meet a tropical bouquet of Nugget, Citra, and Mosaic hops. There’s a balanced bitterness that blends seamlessly into the light to medium body. Sip it or rip it. We're not your mom.",
+#     abv: 7,
+#     brewery_id: 5
+#   },
+#   {
+#     name: "Green Line",
+#     price: 13.99,
+#     category: "American Pale Ale",
+#     image_url: "https://www.gooseisland.com/assets/images/beers/green-line/green-line-can1.png",
+#     description: "Named for our train line that runs outside of our brewery, Goose Island brings you Green Line Pale Ale. This honey-colored American Pale Ale has a crisp hop aroma, citrus flavor, and notes of biscuit and lightly toasted malt.",
+#     abv: 5.40,
+#     brewery_id: 5
+#   },
+#   {
+#     name: "Anti-Hero",
+#     price: 15.49,
+#     category: "Indian Pale Ale",
+#     image_url: "https://revbrew.imgix.net/beer/antihero-can-NEW.png?fit=clip&h=660&letterbox=%23c5bfaf&position=49.39%2022.19&q=80&w=330&s=be930a8e71be8dcc1d63a2d6581330d4",
+#     description: "Our flagship IPA is supremely aromatic, crisp, and drinkable. This iconic ale features a blend of Citra, Crystal, Centennial, and Chinook to create a crisp clean bitterness and imparts massive floral and citrus aromas.
+
+#     An American hop assault for all the ambivalent warriors who get the girl in the end. 'Look, I ain't in this for your revolution, and I'm not in it for you, Princess.'",
+#     abv: 6.7,
+#     brewery_id: 6
+#   },
+#   {
+#     name: "Rev Pils",
+#     price: 16.99,
+#     category: "Pilsner",
+#     image_url: "https://revbrew.imgix.net/graphic-assets/Rev-Pils-single-can-straight.png?fit=clip&h=660&letterbox=%23c5bfaf&q=80&w=330&s=b77675298626e2c3f913e0b0b935bd1f",
+#     description: "Our Chicago Pilsner. Brewed traditionally German, with a slightly American approach. All German hops and malts come together for an exceptionally clean, crisp pilsner.
+
+#     Our can features statues designed by Frank Lloyd Wright, a famous Chicago architect. These sculptures, also known as 'Maid in the Mud', were located in the famous Midway Gardens in Chicago, Illinois.",
+#     abv: 5.5,
+#     brewery_id: 6
+#   },
+#   {
+#     name: "Oktoberfest",
+#     price: 15.99,
+#     category: "Lager",
+#     image_url: "https://revbrew.imgix.net/beer/Oktoberfest-WebCan.png?fit=clip&h=660&letterbox=%23c5bfaf&q=80&w=330&s=54716819c4e995574e447524de069f67",
+#     description: "Our Oktoberfest Bier is a German-style lager that was brewed in the summer and 'cold stored' until late August to celebrate the coming of fall! Traditional German malts such as Pilsner, Vienna, Carared and Munich lend a beautiful burnt orange color and a pleasant toasty malt flavor and aroma to this lager. Initial Magnum hopping along with multiple additions of German Saphir and Select hops throughout the boil provide a crisp balanced bitterness and spicy/earthy aroma to round out this robust beer! For fermentation we use a Bavarian Lager yeast and then lower the temperature to 32 °F and store the beer cold for 4 weeks. This cold maturation time helps provide a smooth round mouthfeel and clean crisp finish.",
+#     abv: 5.7,
+#     brewery_id: 6
+#   },
+#   {
+#     name: "Eugene",
+#     price: 17.99,
+#     category: "Porter",
+#     image_url: "https://revbrew.imgix.net/beer/eugene-can-NEW.png?fit=clip&h=660&letterbox=%23c5bfaf&q=80&w=330&s=583e8b77a75b5a5dd8446bfdfbd4b22b",
+#     description: "A striking, robust porter full of warmth and chocolate malt. An assortment of Belgian specialty malts form a complex structure of toasted grain and caramel flavors. Dark chocolate malt makes this porter black as night and infuses it with its distinct intense, chocolate essence.
+
+#     Eugene is a robust porter named after Eugene V. Debs, an American union leader and activist who led the Pullman Railroad strike in 1894.",
+#     abv: 6.8,
+#     brewery_id: 6
+#   },
+#   {
+#     name: "Hazy Little Thing",
+#     price: 17.99,
+#     category: "Hazy IPA",
+#     image_url: "https://cdn.shopify.com/s/files/1/0227/0581/products/Sierra-Nevada-Hazy-Little-Thing-IPA-12OZ-CAN_620x.png?v=1595225907",
+#     description: "Some beers need a little polishing before entering the world, while others—the hop-heavy, rowdy crowd-pleasers—should just be left alone. We package Hazy Little Thing in all its raw glory: unfiltered, unprocessed, straight from the tanks and into the can. It’s a swirling cloud that likes to shake things up, a fruit-forward hop adventure for the daring. Go bold and make tonight a hazy one.",
+#     abv: 6.7,
+#     brewery_id: 7
+#   },
+#   {
+#     name: "Torpedo",
+#     price: 17.99,
+#     category: "Extra IPA",
+#     image_url: "https://www.totalwine.com/dynamic/x490,sq/media/sys_master/twmmedia/h11/hd2/11735051665438.png",
+#     description: "It started as a napkin sketch in a pub, an idea for a device that could boost hop aroma without adding more bitterness. We built the sketch, and the 'Hop Torpedo' revolutionized dry hopping and inspired Torpedo Extra IPA. It’s an aggressive yet balanced beer featuring the complex citrus, pine, and herbal character of whole-cone hops.",
+#     abv: 7.2,
+#     brewery_id: 7
+#   },
+#   {
+#     name: "Pale Ale",
+#     price: 17.99,
+#     category: "Pale Ale",
+#     image_url: "https://d3czfiwbzom72b.cloudfront.net/wp-content/uploads/2018/10/SIERRA-NEVADA-PALE-ALE-16OZ-SNG-CN-16OZ-Beer.png",
+#     description: "Heavy on hops, that was always the brewery plan. So in 1980, we loaded Pale Ale up with Cascade—a new hop at the time named after the mountain range—and the intense aromas of pine and citrus sparked the American craft beer revolution.",
+#     abv: 5.6,
+#     brewery_id: 7
+#   }
+# ])
