@@ -11,7 +11,15 @@
   description: beer.description,
   abv: beer.abv,
   in_stock: beer.in_stock,
-  brewery: (render partial: "api/breweries/brewery.json.jb", locals: { brewery: beer.brewery }),
+  brewery: {
+    id: beer.brewery.id,
+    name: beer.brewery.name,
+    address: beer.brewery.address,
+    phone_number: beer.brewery.phone_number,
+    website: beer.brewery.website,
+    image_url: beer.brewery.image_url,
+    description: beer.brewery.description
+  },
   formatted: {
     price: number_to_currency(beer.price),
     tax: number_to_currency(beer.tax),
