@@ -16,7 +16,7 @@ class Api::BeersController < ApplicationController
     end
 
     if search_term
-      @beers = @beers.where("name iLIKE ?", "%#{ search_term }%")
+      @beers = @beers.where("name iLIKE ? OR description iLIKE ? OR category iLIKE ?", "%#{ search_term }%", "%#{ search_term }%", "%#{ search_term }%")
     end
 
     if discount_option

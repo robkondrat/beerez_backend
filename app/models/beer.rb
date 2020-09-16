@@ -20,5 +20,9 @@ class Beer < ApplicationRecord
   def total
     price + tax
   end
+
+  def description_list
+    description.split(", ")
+  end
   
 end
