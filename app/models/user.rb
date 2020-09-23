@@ -3,8 +3,9 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: true
 
   has_many :carted_beers
+  has_many :orders
 
   def cart
-    carted_products.where(status: "carted")
+    carted_beers.where(status: "carted")
   end
 end

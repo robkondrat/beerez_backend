@@ -1,5 +1,5 @@
 class Api::OrdersController < ApplicationController
-  before_action :authenticate_user, only: [:index, :create]
+  before_action :authenticate_user
 
   def index
     @orders = current_user.orders
@@ -17,4 +17,4 @@ class Api::OrdersController < ApplicationController
     @order = Order.find(params[:id])
     render 'show.json.jb'
   end
-end
+end 

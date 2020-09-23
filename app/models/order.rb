@@ -5,7 +5,7 @@ class Order < ApplicationRecord
   has_many :beers, through: :carted_beers
 
   def calculate_subtotal
-    self.subtotal = carted_products.sum { |carted_beers| carted_beers.subtotal}
+    self.subtotal = carted_beers.sum { |carted_beer| carted_beer.subtotal}
   end
 
   def calculate_tax
