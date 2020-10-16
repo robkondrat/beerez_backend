@@ -21,6 +21,7 @@ Rails.application.routes.draw do
     patch '/beers/:id' => 'beers#update'
     delete '/beers/:id' => 'beers#destroy'
 
+    get '/current_user' => 'users#current_user'
     post '/users' => 'users#create'
     get '/users/:id' => 'users#show'
 

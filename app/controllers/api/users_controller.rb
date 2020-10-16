@@ -1,5 +1,12 @@
 class Api::UsersController < ApplicationController
+  before_action :authenticate_user, only: [:index]
 
+
+  def current_user
+    return unless session[:user_id]
+    @user ||= User.find(session[:user_id])
+    render 'current_user.json.jb'
+  end
 
   def create
     user = User.new(

@@ -1,8 +1,8 @@
 class Api::CartedBeersController < ApplicationController
-  before_action :authenticate_user
+  # before_action :authenticate_user
 
   def index
-    @carted_beers = current_user.carted_beers.where(status: "carted")
+    @carted_beers = current_user.cart
     render 'index.json.jb'
   end
 
