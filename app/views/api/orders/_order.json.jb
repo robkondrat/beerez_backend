@@ -4,5 +4,6 @@
   subtotal: order.subtotal,
   tax: order.tax,
   total: order.total,
+  created_at: order.created_at.strftime("%m-%d-%Y"),
   carted_beers: order.carted_beers.map { |carted_beer| render partial: "api/carted_beers/carted_beer.json.jb", locals: { carted_beer: carted_beer } }
 }
