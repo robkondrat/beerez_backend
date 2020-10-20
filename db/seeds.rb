@@ -175,3 +175,109 @@
 #     brewery_id: 7
 #   }
 # ])
+# Brewery.create!([
+#   {
+#     name: "Stone Brewing",
+#     address: "1999 Citracado Parkway, Escondido, CA 92029",
+#     website: "https://www.stonebrewing.com/",
+#     image_url: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F31827765%2F44317224120%2F1%2Foriginal.jpg?s=8f7b5185cf5d14023309838449160e59",
+#     description: "Founded by Greg Koch and Steve Wagner, Stone Brewing has come a long way since opening in San Diego County in 1996. Now the ninth-largest craft brewer in the U.S., we operate brewing facilities on both coasts – Escondido, California and Richmond, Virginia. On top of making badass beers for over two decades, we operate a number of restaurants and tap rooms as well as the largest craft-centric beer distribution business in the U.S. Our beers are available in all 50 states and more than 40 countries worldwide."
+#   },
+#   {
+#     name: "Founders Brewing Co.",
+#     address: "235 Grandville Ave SW, Grand Rapids, MI 49503",
+#     website: "https://foundersbrewing.com/",
+#     image_url: "https://www.handfamilycompanies.com/filebin/images/brewery_logos/FoundersLogo.png",
+#     description: "We at Founders Brewing Co. have been lucky to evolve into one of the highest recognized breweries in the United States. We’ve been ranked in the top breweries in the world by Ratebeer.com for the last five years, and we have several beers listed in the top 100 beers of the world on Beeradvocate.com. We’re now among the top ten largest craft breweries in the country and one of the fastest-growing. We’re proud to be doing what we’re doing. We give credit to our staff for continuously working to reinvent what beer can be and thanks to our many customers for whom we work to provide world-class beers."
+#   },
+#   {
+#     name: "Brooklyn Brewery",
+#     address: "79 N 11th St, Brooklyn, NY 11249",
+#     website: "https://brooklynbrewery.com/",
+#     image_url: "https://mullerbev.com/wp-content/uploads/2019/02/brooklyn-lager.png",
+#     description: "The Brooklyn Brewery started with a dream to return brewing to Brooklyn, once a powerhouse of American beer production. Today our beers travel to more than half the United States and over thirty countries. Our James Beard Award-winning Brewmaster Garrett Oliver and his team brew everything from classic styles to bold experiments and collaborate with brewers, innovators and artists from around the globe. We’ve met wonderful people in remarkable places, and we can’t wait to show everyone what’s next."
+#   }
+# ])
+# Beer.create!([
+#   {
+#     name: "Stone IPA",
+#     price: 19.99,
+#     category: "IPA",
+#     image_url: "https://www.stonebrewing.com/sites/default/files/tamara_gineo_0.png",
+#     description: "By definition, an India pale ale is hoppier and higher in alcohol than its little brother, pale ale—and we deliver in spades. One of the most well-respected and best-selling IPAs in the country, this golden beauty explodes with tropical, citrusy, piney hop flavors and aromas, all perfectly balanced by a subtle malt character. This crisp, extra hoppy brew is hugely refreshing on a hot day, but will always deliver no matter when you choose to drink it.",
+#     abv: 6.9,
+#     brewery_id: 9
+#   },
+#   {
+#     name: "Stone Buenaveza Salt & Lime Lager",
+#     price: 15.99,
+#     category: "Lager",
+#     image_url: "https://popmenucloud.com/cdn-cgi/image/width=640,height=640,format=auto,fit=scale-down/txozlusn/9ddcafc8-276a-4795-a37b-9f58616af525.png",
+#     description: "Stone Buenaveza Salt & Lime Lager was born here in Southern California, which is vibrantly influenced by our neighbors to the south. SoCal's warm weather lends itself to outdoor activities year-round. From surfing our coasts, to snowboarding and biking in the mountains, off-roading through deserted lands, or boating and fishing in our lakes and rivers, this Baja-inspired lager is the perfect companion. Brewed with just the right amount of lime and sea salt, it’s everything a lager should be – crisp, refreshing and full of flavor. The name is pretty simple: we took “Buena” for good and “-veza” from cerveza. Because we’ve always believed good beer is an important part of a good life. So raise a glass (or can) with us to the buena vida.",
+#     abv: 4.7,
+#     brewery_id: 9
+#   },
+#   {
+#     name: "Stone Tangerine Express Hazy IPA",
+#     price: 19.99,
+#     category: "Hazy IPA",
+#     image_url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbrewpublic.com%2Fbeer-releases%2Fnew-packaging-adorns-stone-tangerine-express-hazy-ipa%2F&psig=AOvVaw3WqXVWvRWnTRW66-2QYnhz&ust=1603319933825000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODS9quexOwCFQAAAAAdAAAAABAD",
+#     description: "This ain’t no just-add-juice approach. This one is for adults. We use bountiful whole tangerine purée, which brings pithy, crisp bitterness to the citrus flavor. In addition to the complexities of the tangerine — the likes of which you can only get by using the whole fruit — we judiciously employ just a hint of whole pineapple for a backnote (you’d likely not even pick it out of the mix if we didn’t tell you it was there). We’re not looking for a sweet concoction to appease the “I want my beer to taste like fruit juice” crowd. This is Stone. We like our IPAs to taste like IPAs. Big, bold and not for kids.",
+#     abv: 6.7,
+#     brewery_id: 9
+#   },
+#   {
+#     name: "All Day IPA",
+#     price: 15.99,
+#     category: "Session India Pale Ale",
+#     image_url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bonniebraeliquor.com%2Fbeer%2FFounders-Brewing-Company-All-Day-IPA-w9918364zf&psig=AOvVaw1QhT0uhFXoa09s6Tvsw16g&ust=1603320095719000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCw1viexOwCFQAAAAAdAAAAABBE",
+#     description: "The beer you’ve been waiting for. Keeps your taste satisfied while keeping your senses sharp. An all-day IPA naturally brewed with a complex array of malts, grains and hops. Balanced for optimal aromatics and a clean finish. The perfect reward for an honest day’s work and the ultimate companion to celebrate life’s simple pleasures.",
+#     abv: 4.7,
+#     brewery_id: 10
+#   },
+#   {
+#     name: "Solid Gold",
+#     price: 13.99,
+#     category: "Premium Lager",
+#     image_url: "https://www.passionvines.com/images/sites/passionvines/labels/w5698637sb_1.jpg",
+#     description: "Our brewery was built on an attitude of no regrets. An attitude of taking risks to bring the best beer possible to our fellow renegades and rebels. Never brewing to style, but always brewing what we want to drink. Our take on a classic, Solid Gold is a drinkable premium lager brewed with the highest quality ingredients. Challenging what a lager can be? That’s something we won’t regret.",
+#     abv: 4.4,
+#     brewery_id: 10
+#   },
+#   {
+#     name: "Centennial IPA",
+#     price: 14.99,
+#     category: "India Pale Ale",
+#     image_url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.totalwine.com%2Fbeer%2Fale%2Fipa-india-pale-ale-%2Famerican-ipa%2Ffounders-centennial-ipa%2Fp%2F105907122&psig=AOvVaw3LR9l1iI1tidlS6du9jbAh&ust=1603320329493000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj0uuifxOwCFQAAAAAdAAAAABAD",
+#     description: "Get ready to bask in the glory of the frothy head’s floral bouquet. Relish the citrus accents from the abundance of dry hopping. This one’s sweet, yet balanced. Malty undertones shake hands with the hop character for a finish that never turns too bitter.",
+#     abv: 7.2,
+#     brewery_id: 10
+#   },
+#   {
+#     name: "Brooklyn Lager",
+#     price: 15.99,
+#     category: "American Amber Lager",
+#     image_url: "https://www.beerwulf.com/globalassets/brooklyn-lager.36_1_1.png",
+#     description: "Brooklyn Lager unites flavors of toffee, toast, and caramel with a dry-hopped aroma full of grapefruit, flowers, and pine. Whether it’s in your favorite pint glass, a trusty bottle, or versatile can, Brooklyn Lager is the beer for the job. If you’re looking for the dry-hopped amber lager that changed the world, look no further.",
+#     abv: 5.2,
+#     brewery_id: 11
+#   },
+#   {
+#     name: "Brooklyn Bel Air Sour",
+#     price: 16.99,
+#     category: "Sour Ale",
+#     image_url: "https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h8b/h08/13443033169950.png",
+#     description: "Brooklyn Bel Air Sour is full of surprises. Our sour ale starts up with bright notes of tropical fruit yet finishes crisp and gently tart. It’s a trip that’s laid back, breezy, and completely refreshing.",
+#     abv: 4.5,
+#     brewery_id: 11
+#   },
+#   {
+#     name: "East IPA",
+#     price: 17.99,
+#     category: "India Pale Ale",
+#     image_url: "https://www.carlsberggroup.com/media/6138/brooklyn_east_india_355ml_d.png",
+#     description: "East IPA unites the far-flung global roots of the style into a uniquely balanced IPA with malt-driven notes of toffee rounding out pleasantly bitter and aromatic hops.",
+#     abv: 6.9,
+#     brewery_id: 11
+#   }
+# ])
