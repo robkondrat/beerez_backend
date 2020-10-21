@@ -281,3 +281,77 @@
 #     brewery_id: 11
 #   }
 # ])
+# Beer.create!([
+#   {
+#     name: "Gumballhead",
+#     price: 19.99,
+#     category: "Wheat Beer",
+#     image_url: "https://www.3floyds.com/wp-content/uploads/2014/02/NewGBHClipped-400x1754.png",
+#     description: "An American wheat ale brewed with white wheat and dry hopped with hand-selected hops from the Yakima Valley. Bright and refreshing with a lemony finish.",
+#     abv: 5.6,
+#     brewery_id: 1
+#   },
+#   {
+#     name: "Yum Yum",
+#     price: 19.99,
+#     category: "American Session Ale",
+#     image_url: "https://www.3floyds.com/wp-content/uploads/2014/03/YumYumClipped_72.png",
+#     description: "Welcome to flavor country. This Pale Ale has just the right malt backbone to support an explosive juicy hop profile. Derived from a new blend of proprietary hops. We hope you’ll enjoy it. Cheers!",
+#     abv: 5.5,
+#     brewery_id: 1
+#   },
+#   {
+#     name: "Zombie Dust",
+#     price: 20.99,
+#     category: "Pale Ale",
+#     image_url: "https://www.3floyds.com/wp-content/uploads/2014/02/ZombieDustClipped-400x1754.png",
+#     description: "This intensely hopped and gushing undead Pale Ale will be one’s only respite after the zombie apocalypse. Created with our marvelous friends in the comic industry.",
+#     abv: 6.2,
+#     brewery_id: 1
+#   },
+#   {
+#     name: "Apex Predator",
+#     price: 17.99,
+#     category: "Farmhouse Ale",
+#     image_url: "https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h7e/hfb/11192339398686.png",
+#     description: "Apex Predator’s saison yeast expresses explosive juicy fruit and pineapple aromas meshing with lemon grass hop profile ending with a pleasantly dry finish.",
+#     abv: 6.5,
+#     brewery_id: 2
+#   },
+#   {
+#     name: "Tooth & Claw",
+#     price: 21.99,
+#     category: "Lager",
+#     image_url: "https://tigerjoes.beerline.com/globalassets/product-images/off-color/off-color-tooth--claw/offcolortoothclawlarge-012420.png",
+#     description: "Tooth & Claw is a Czech style lager featuring European hops  accompanied by a delicate maltiness but finishes semi-dry.",
+#     abv: 5.0,
+#     brewery_id: 2
+#   },
+#   {
+#     name: "Beer for Tacos",
+#     price: 19.99,
+#     category: "Gose",
+#     image_url: "https://www.binnys.com/media/catalog/product/cache/eab16ae251e4410504af434c6d9419db/1/0/100935.jpg",
+#     description: "You know what we love as much as beer? Margaritas… and tacos. But we make beer, so we decided to add lime juice to our gose beer lending a bright citric acid character to the existing lactic acid creating a beer with complex tartness. The wheat body is accented by a hefty dose of pink Himalayan salt to pair perfectly with tequila... and tacos.",
+#     abv: 4.5,
+#     brewery_id: 2
+#   },
+#   {
+#     name: "Voodoo Ranger",
+#     price: 19.99,
+#     category: "IPA",
+#     image_url: "https://www.newbelgium.com/globalassets/beer/voodoo-ranger/vripa_2019_globe_btl.png",
+#     description: "Bursting with tropical aromas and juicy fruit flavors from Mosaic and Amarillo hops, this golden IPA is perfectly bitter with a refreshing, sublime finish.",
+#     abv: 7.0,
+#     brewery_id: 8
+#   },
+#   {
+#     name: "Voodoo Ranger Juicy Haze",
+#     price: 20.99,
+#     category: "IPA",
+#     image_url: "https://www.newbelgium.com/globalassets/beer/voodoo-ranger-juicy-haze-ipa/refresh/vrjh_1080x1080_can_glass.png",
+#     description: "Packed with bright tropical aromas and brilliant citrusy flavors, this unfiltered IPA wraps up with a pleasantly smooth finish.",
+#     abv: 7.5,
+#     brewery_id: 8
+#   }
+# ])
